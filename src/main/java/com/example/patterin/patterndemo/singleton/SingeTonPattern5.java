@@ -16,7 +16,7 @@ public class SingeTonPattern5 {
     public SingeTonPattern5() {
     }
 
-    public synchronized static SingeTonPattern5 getInstance() {
+    public static SingeTonPattern5 getInstance() {
         if (singeTonPattern == null) {
             synchronized (SingeTonPattern5.class) {
                 if (singeTonPattern == null) {
